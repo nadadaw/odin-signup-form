@@ -1,6 +1,6 @@
 @font-face {
     font-family: Norse-Bold;
-    src: url(/fonts/Norse-Bold.otf);
+    src: url(fonts/Norse-Bold.otf);
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 #left-container {
-    background-image: url("/images/halie-west-unsplash.jpg");
+    background-image: url("images/halie-west-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
