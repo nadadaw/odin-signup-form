@@ -3,8 +3,9 @@
     src: url(/fonts/Norse-Bold.otf);
 }
 
-* {
+body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
   }
 
 #container {
@@ -23,6 +24,11 @@
     justify-content: space-between;
 }
 
+
+#left-container a:visited {
+    color: white;
+}
+
 #right-container {
     background-color: rgb(249, 249, 249);
 }
@@ -37,15 +43,21 @@
     padding-top: 1px;
     padding-bottom: 20px;
     padding-left: 35px;
+    box-shadow: 5px 5px 5px #c0c0c0;
 }
 
 #form-container input {
     min-width: 200px;
-    min-height: 20px;
+    min-height: 25px;
     border-color: #E5E7EB;
     border-width: 1px;
     border-radius: 5px;
     margin-bottom: 5px;
+  }
+
+  #form-container input:focus {
+    border: 1px solid blue;
+    box-shadow: 2px 2px 2px rgb(144, 144, 249);
   }
 
 #form-container h3 {
@@ -68,16 +80,20 @@ form {
 
 #text-container {
     padding: 100px 120px 20px 20px;
-    width: 50%;
+    margin-left: 10px;
+    width: 60%;
 }
 
 #decision-container button {
     background-color: #596d48;
     color: white;
     height: 40px;
-    padding: 10px 60px 10px 60px;
+    padding: 10px 50px 10px 50px;
     border-radius: 5px;
+    border-color: white;
     font-size: 15px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 1px #c0c0c0;
 }
 
 #decision-container a {
@@ -88,10 +104,11 @@ form {
 .form-element label {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
     display: block;
-    font-weight: 200;
-    color: rgb(83, 83, 83);
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+    letter-spacing: 2px;
 }
 
 #decision-container {
@@ -106,7 +123,7 @@ form {
 #logo-container {
     background-color: rgba(101, 97, 97,0.6);
     text-align: center;
-    height: 185px;
+    height: 200px;
     margin-top: 200px;
 }
 
